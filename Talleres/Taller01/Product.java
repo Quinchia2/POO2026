@@ -18,7 +18,7 @@ public class Product {
         return stock;
     }
     public boolean setName(String newName){
-        if (newName!= null && !name.trim().isEmpty()){
+        if (newName!= null && !newName.trim().isEmpty()){
             this.name=newName;
             return true;
         }
